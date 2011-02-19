@@ -1,0 +1,126 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en">
+     <head>
+	  <title>Free Liberty Reserve Module</title>
+	  <meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1" />
+	  <link href="doc.css" rel="stylesheet" type="text/css" />
+     </head>
+
+     <body>
+     
+	  <h1 class="title">Liberty Reserve Module<br/></h1>
+	  <p>
+	       The Liberty Reserve module uses <a href="http://www.libertyreserve.com/en/help/programmatic-access/api/">the Liberty Reserve's XML API</a>.<a href="#details"> More ...</a><br/>
+	  </p>
+
+	  <h2>Classes</h2>
+	  <p>
+	       <table width="100%" class="annotated" cellpadding="2" cellspacing="1" border="0">
+		    <tr valign="top" class="odd">
+			 <th><a href="class/account.html">Account</a></th>
+			 <td>Base class as a part of authentification</td>
+		    </tr>
+		    <tr valign="top" class="even">
+			 <th><a href="class/accountname.html">AccountName</a></th>
+			 <td>Used in the parse of an AccountNameResponse</td>
+		    </tr>
+		    <tr valign="top" class="even">
+			 <th><a href="class/accountnameoperation.html">AccountNameOperation</a></th>
+			 <td>Base class for every account name operation</td>
+		    </tr>
+		    <tr valign="top" class="odd">
+			 <th><a href="class/accountnamerequest.html">AccountNameRequest</a></th>
+			 <td>Create request for one or several AccountNameOperation</td>
+		    </tr>
+		    <tr valign="top" class="odd">
+			 <th><a href="class/accountnameresponse.html">AccountNameResponse</a></th>
+			 <td>Base class for the response of an AccountNameRequest</td>
+		    </tr>
+		    <tr valign="top" class="even">
+			 <th><a href="class/balance.html">Balance</a></th>
+			 <td>Used in the parse of a BalanceResponse</td>
+		    </tr>
+		    <tr valign="top" class="even">
+			 <th><a href="class/balanceoperation.html">BalanceOperation</a></th>
+			 <td>Base class for every balance operation</td>
+		    </tr>
+		    <tr valign="top" class="odd">
+			 <th><a href="class/balancerequest.html">BalanceRequest</a></th>
+			 <td>Create request for one or several BalanceOperation</td>
+		    </tr>
+		    <tr valign="top" class="odd">
+			 <th><a href="class/balanceresponse.html">BalanceResponse</a></th>
+			 <td>Base class for the response of a BalanceRequest</td>
+		    </tr>
+		    <tr valign="top" class="even">
+			 <th><a href="class/error.html">Error</a></th>
+			 <td>Base class used in the parse of any response for errors</td>
+		    </tr>
+		    <tr valign="top" class="even">
+			 <th><a href="class/historyoperation.html">HistoryOperation</a></th>
+			 <td>Base class for every history operation</td>
+		    </tr>
+		    <tr valign="top" class="odd">
+			 <th><a href="class/historyrequest.html">HistoryRequest</a></th>
+			 <td>Create request for one HistoryOperation</td>
+		    </tr>
+		    <tr valign="top" class="odd">
+			 <th><a href="class/historyresponse.html">HistoryResponse</a></th>
+			 <td>Used in the parse of a HistoryResponse</td>
+		    </tr>
+		    <tr valign="top" class="odd">
+			 <th><a href="class/id.html">Id</a></th>
+			 <td>Used to yield an identity as a part of authentification for every request</td>
+		    </tr>
+		    <tr valign="top" class="even">
+			 <th><a href="class/merchantref.html">MerchantRef</a></th>
+			 <td>Used to yield a merchant reference for a TransferOperation</td>
+		    </tr>
+		    <tr valign="top" class="even">
+			 <th><a href="class/pager.html">Pager</a></th>
+			 <td>Used in the parse of a HistoryResponse</td>
+		    </tr>
+		    <tr valign="top" class="even">
+			 <th><a href="class/processor.html">Processor</a></th>
+			 <td>Process requests and responses for transfer, history, balance and accountname operations</td>
+		    </tr>
+		    <tr valign="top" class="odd">
+			 <th><a href="class/receipt.html">Receipt</a></th>
+			 <td>Base class used in the parse of a TransferResponse</td>
+		    </tr>
+		    <tr valign="top" class="even">
+			 <th><a href="class/transferoperation.html">TransferOperation</a></th>
+			 <td>Base class for every transfer operation</td>
+		    </tr>
+		    <tr valign="top" class="odd">
+			 <th><a href="class/transferrequest.html">TransferRequest</a></th>
+			 <td>Create request for one or several TransferOperation</td>
+		    </tr>
+		    <tr valign="top" class="odd">
+			 <th><a href="class/transferresponse.html">TransferResponse</a></th>
+			 <td>Base class for the response of a TransferRequest</td>
+		    </tr>
+	       </table>
+	  </p>
+	  <a name="details"></a>
+	  <h2>Detailed Description</h2>
+	  <p>
+	       It enables to communicate between Liberty Reserve accounts sending and receiving payments, receiving informations about incoming and outgoing payments, obtaining history of performed actions and receiving informations about Liberty Reserve accounts.<br/>
+	       Required DOM class from php 5.
+	  </p>
+	  <address>
+	       <hr/>
+	       <div align="center">
+		    <table width="100%" cellspacing="0" border="0">
+			 <tr class="address">
+			      <td width="40%" align="left">Copyright &copy; 2010 Dirac</td>
+			      <td width="20%" align="center"><a href="../LICENCE.txt">GNU General Public License</a></td>
+			      <td width="40%" align="right"><div align="right">Free Liberty Reserve Module</div></td>
+			 </tr>
+		    </table>
+	       </div>
+	  </address>
+
+     </body>
+
+</html>
