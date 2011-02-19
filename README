@@ -1,0 +1,5 @@
+Please note that module works only with a build of php superior to 5 with DOM class.
+
+For information about classes, see documentation. For a full comprehension, see http://www.libertyreserve.com/en/help/programmatic-access/api/
+
+In order to test the module and understand how to use it, run test.php and modify it.
